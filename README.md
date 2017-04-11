@@ -5,5 +5,7 @@ Currently have it set to only compute up to 100, as going much higher crashes my
 
 
 References:
+
 http://okmij.org/ftp/Computation/type-arithmetics.html
+
 https://accu.org/index.php/journals/424
