@@ -116,8 +116,7 @@ struct SumOfMultiples<Succ<T> > {
 	typedef typename MultipleOf5<Succ<T> >::value is_multiple_5;
 	typedef typename Or<is_multiple_3, is_multiple_5>::value test;
 	typedef typename If<test, typename Add<Succ<T>, typename SumOfMultiples<T>::sum >::value, 
-	                          typename SumOfMultiples<T>::sum >::value 
-							  sum;
+	                          typename SumOfMultiples<T>::sum >::value sum;
 };
 
 template<>
